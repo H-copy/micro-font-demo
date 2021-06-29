@@ -1,0 +1,32 @@
+{
+  "name": "micro-font-demo",
+  "version": "1.0.0",
+  "description": "micro font demo by qiankun",
+  "author": "copy-left",
+  "main": "",
+  "scripts": {
+    "dev": "lerna exec yarn dev --scope @micro-font-demo/root",
+    "commit": "cz",
+    "commit-check": "commitlint --edit"
+  },
+  "keywords": [
+    "micro font",
+    "qiankun",
+    "vue3.0"
+  ],
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ],
+    "nohoist": []
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/cz-commitlint": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0"
+  }
+}

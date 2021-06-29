@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "apps/*"
+  ],
+  "command": {
+    "run": {
+      "stream": true
+    }
+  },
+  "version": "independent",
+  "npmClient": "cnpm"
+}
