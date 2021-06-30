@@ -1,6 +1,5 @@
 <template>
-  <div> root </div>
-  <a-button type='primary'> click me </a-button>
+ <router-view></router-view>
 </template>
 
 <script lang="ts">
